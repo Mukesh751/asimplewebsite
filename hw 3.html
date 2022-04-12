@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        function startTime() {
+          const today = new Date();
+          let h = today.getHours();
+          let m = today.getMinutes();
+          let s = today.getSeconds();
+          m = checkTime(m);
+          s = checkTime(s);
+          document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+          setTimeout(startTime, 1000);
+        }
+        
+        function checkTime(i) {
+          if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+          return i;
+        }
+     </script>
+    <style>
+        *{box-sizing: border-box;}
+        nav{
+background: red;
+color:white;
+}
+ul li{
+display: inline;
+font-size: 30px;
+padding:6%;
+}
+
+.c{
+float:left;
+height: auto;
+width: 90%;
+margin-left: 10%;
+}
+.c article{
+background: skyblue;
+float:left;
+height: auto;
+width: 50%;
+}
+.c article p{
+font-size: 70px;
+}
+iframe{
+    height: 700px;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.d article{
+    background: rgb(199, 197, 197);
+float:left;
+height: auto;
+width: 50%;
+} 
+.d article aside{
+    background: whitesmoke;
+float:left;
+height: auto;
+width: 50%;
+}
+.d article aside section{
+    float: left;
+    height: auto;
+    width: 65%;
+    margin-left: 22%;
+    margin-top: 3%;
+}
+
+.e aside{
+    float: left;
+    height: auto;
+    width: 35%;
+    color: white;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.e{
+    padding-left: 27%;
+}
+.f article{
+    float: left;
+    height: 600px;
+    width: 70%;
+}
+.f aside{
+    float: left;
+    height: 600px;
+    width: 30%;
+}
+.f img{
+    width:100%;
+    height: 70%;
+}
+.f{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.g{
+    background: gray;
+    margin-top: 80%;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 20%;
+}
+.g p{
+    font-size: 200%;
+    text-align: center;
+}
+@media only screen and (max-width: 600px){
+ul li{
+    font-size: 18px;
+    padding: 4%;
+}
+iframe{
+    height:400px;
+}
+}
+
+article.custClass {
+    background-color: skyblue;
+}
+.custText {
+    padding-top: 150px;
+    padding-left: 130px;
+}
+.custImg {
+    padding-top: 60px;
+    padding-right: 80px;
+    padding-left: 0px;
+}
+.cc1{
+    padding-right:5%;
+}
+.cc3, .cc4 {
+    margin-top: -12%;
+}
+
+.cc4 {
+    padding-left: 5%;
+}
+.cc1, .cc2, .cc3, .cc4 {
+    background: white;
+}
+.clock{
+    font-size: 400%;
+    text-align: center;
+}
+input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 20px;
+  height: 20px;
+  width: 200px;
+}
+textarea{
+    background-color: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 20px;
+    width: 400px; 
+    height: 150px;
+}
+.h article {
+    background: whitesmoke;
+float:left;
+height: 340px;
+width: 50%;
+}
+</style>
+</head>
+<body  onload="startTime()">
+  
+        <nav>
+            <ul>
+            <li> Home </li>
+            <li> About </li>
+            <li> Contact </li>
+            <li> Services</li>
+            <li> Blog</li>
+            </ul>
+        </nav>
+        <div class="c">
+        <article>
+            <p>
+                Beautiful Logos, bombastic web designs and clever interfaces.
+            </p>
+        </article>
+        <article>
+            <img src="image-removebg-preview.png" alt="image">
+        </article>
+        <iframe src="website1.html"> </iframe>
+        </div>
+        <div class="d">
+            <article>
+               <img src="popup box-removebg-preview.png" alt="image">
+            </article>
+            <article>
+                <aside>
+                    <section>
+                         <h3>Christmas </h3>
+                         <p> Christmas is the most important festival among Christians. It is celebrated to mark the birth of Jesus, who is the supreme lord of the Christians. It marks the beginning of the days of hope for those oppressed before the birth of Jesus. Christmas celebrates the spirit of joy and merry-making.
+                         </p>
+                    </section>
+                    <section>
+                        <h3>Christmas </h3>
+                        <p> Christmas is the most important festival among Christians. It is celebrated to mark the birth of Jesus, who is the supreme lord of the Christians. It marks the beginning of the days of hope for those oppressed before the birth of Jesus. Christmas celebrates the spirit of joy and merry-making.
+                        </p>
+                   </section>
+                   <section>
+                    <h3>Christmas </h3>
+                    <p> Christmas is the most important festival among Christians. It is celebrated to mark the birth of Jesus, who is the supreme lord of the Christians. It marks the beginning of the days of hope for those oppressed before the birth of Jesus. Christmas celebrates the spirit of joy and merry-making.
+                    </p>
+               </section>
+                </aside>
+                <aside>
+                    <section>
+                         <h3>Christmas </h3>
+                         <p> Christmas is the most important festival among Christians. It is celebrated to mark the birth of Jesus, who is the supreme lord of the Christians. It marks the beginning of the days of hope for those oppressed before the birth of Jesus. Christmas celebrates the spirit of joy and merry-making.
+                         </p>
+                    </section>
+                    <section>
+                        <h3>Christmas </h3>
+                        <p> Christmas is the most important festival among Christians. It is celebrated to mark the birth of Jesus, who is the supreme lord of the Christians. It marks the beginning of the days of hope for those oppressed before the birth of Jesus. Christmas celebrates the spirit of joy and merry-making.
+                        </p>
+                   </section>
+                   <section>
+                    <h3>Christmas </h3>
+                    <p> Christmas is the most important festival among Christians. It is celebrated to mark the birth of Jesus, who is the supreme lord of the Christians. It marks the beginning of the days of hope for those oppressed before the birth of Jesus. Christmas celebrates the spirit of joy and merry-making.
+                    </p>
+               </section>
+                </aside>
+            </article>
+        </div>
+        
+
+
+        <div class="d">
+            <article class="custClass custText">
+                <h2>Bring your site to life in a powerful painless way</h2>
+                <p>iMac is a family of all-in-one Macintosh desktop computers designed and built by Apple Inc. It has been the primary part of Apple's consumer desktop offerings since its debut in August 1998.
+                </p>
+                <p>Signature--</p>
+            </article>
+            <article class="custClass custImg">
+                <img src="imac-removebg-preview.png" alt="image">
+             </article>
+        </div>
+
+        
+        <!-- <div class="e">
+            <aside>
+                <h2>Bring your site to life in a powerful painless way</h2>
+                <p>iMac is a family of all-in-one Macintosh desktop computers designed and built by Apple Inc. It has been the primary part of Apple's consumer desktop offerings since its debut in August 1998.
+                </p>
+            </aside>
+            <aside>
+                <img src="imac-removebg-preview.png" alt="image">
+            </aside>
+        </div> -->
+    
+        <div class="f">
+            <h2>For all the things you want to do</h2>
+          <div class="f">  
+            <article class="cc1">
+                <img src="landscape.jpg" alt="image">
+            </article>
+            <aside class="cc2">
+                <img src="job_friends.jpg" alt="image">
+            </aside>
+            <aside class="cc3">
+                <img src="file:///C:/Users/omen/OneDrive/Documents/HTML/images/omen.jpg">
+            </aside>
+            <article class="cc4">
+                <img src="college_friends.jpg" alt="image">
+            </article>
+        </div>
+        </div>
+        <div class="g">
+            <p>“Many of life’s failures are people who did not realize how close they were to success when they gave up.”</p>
+        </div>
+        <div id="txt" class="clock"></div>
+        
+        <div class="h">
+            <article class="info">
+                <h2>Contact Information</h2>
+                <p>If you like my work, you can reach out to me using the following information.</p>
+                <i class="fa fa-phone">999999999</i><br>
+                <i class="fa fa-envelope">xyz@gmail.com</i><br>
+                <i class="fa fa-map-marker"><a href="https://www.google.co.in/maps/place/Axis+Juice/@21.2580575,81.6443512,17z/data=!3m1!4b1!4m5!3m4!1s0x3a28dd8290ed1747:0xac060ac8e5ab9f9a!8m2!3d21.2580605!4d81.6465304?hl=en">Axis Juice</a></i>
+            </article>
+            <article class="contactform">
+                <h2>Interested?</h2>
+                <h2>Fill Out the Form</h2>
+                <form>
+                    <input type="text" placeholder="Name"></input><br>
+                    <input type="text" placeholder="Contact"></input><br>
+                    <textarea placeholder="message"></textarea><br>
+                    <input type="submit" value="Submit">
+                </form>
+             </article>
+        </div>
+
+</div>
+</body>
+</html>
